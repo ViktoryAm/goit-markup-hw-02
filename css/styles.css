@@ -1,0 +1,176 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --accent-color-nav: #2196F3;
+    --description-color: #757575;
+    --section-title-color: #212121;
+}
+
+/*Общий сброс*/
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+/*Глобальный стиль*/
+
+body {
+    font-family: var(--main-font)
+}
+
+/*Компоненты*/
+
+.description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--description-color);
+}
+.section-titel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+/*Logo*/
+
+.logo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    
+        color: #2196F3;
+}
+.logo-black {
+    color: #000000;
+}
+
+/*Навигационные элементы*/
+
+.menu-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color-nav);
+}
+
+/*Контакты*/
+
+.mail-contact,
+.phone-contact {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+}
+.mail-contact:hover,
+.mail-contact:focus {
+    color: #2196F3;
+}
+.phone-contact:hover,
+.phone-contact:focus {
+    color: #2196F3;
+}
+
+/*Hero*/
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-titel {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+
+        color: #FFFFFF;       
+}
+
+.modal-btn {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        color: #FFFFFF;
+        background-color: #2196F3;
+        cursor: pointer;        
+}
+.modal-btn:hover,
+.modal-btn:focus {
+    border-color: #2196F3;
+    
+}
+
+/*Особенности*/
+
+.features-name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+}
+
+/*Наша команда*/
+
+.name-member {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #2F303A;
+}
+
+/*Контактные данные*/
+
+.address {
+    font-style: normal;
+}
+.map-address-link {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+}
+.mail-address-link {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+.tel-address-link {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+            
+        color: rgba(255, 255, 255, 0.6);
+
+}
