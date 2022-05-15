@@ -110,7 +110,8 @@ body {
         line-height: 1.88;
         color: #FFFFFF;
         background-color: #2196F3;
-        cursor: pointer;        
+        cursor: pointer; 
+               
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -172,5 +173,39 @@ body {
         letter-spacing: 0.03em;
             
         color: rgba(255, 255, 255, 0.6);
+
+}
+
+/*=======ПОРТФОЛИО=======*/
+
+/* Навигационные кнопки*/
+
+.portfolio-button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+        background-color: rgba(245, 244, 250, 1);
+        border: none;
+        cursor: pointer
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/*Все категории портфолио*/
+
+.img-name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    
+        color: #212121;
 
 }
