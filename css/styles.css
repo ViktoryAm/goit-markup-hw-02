@@ -3,6 +3,7 @@
     --accent-color-nav: #2196F3;
     --description-color: #757575;
     --section-title-color: #212121;
+    --main-background-color: #2F303A;
 }
 
 /*Общий сброс*/
@@ -95,7 +96,7 @@ body {
 /*Hero*/
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--main-background-color);
 }
 
 .hero-titel {
@@ -149,7 +150,7 @@ body {
 /*Footer*/
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--main-background-color);
 }
 
 /*Контактные данные*/
